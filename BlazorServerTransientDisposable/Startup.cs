@@ -63,16 +63,16 @@ namespace BlazorServerTransientDisposable
         }
     }
 
-    internal class TransitiveTransientDisposableDependency : ITransitiveTransientDisposableDependency, IDisposable
+    public class TransitiveTransientDisposableDependency : ITransitiveTransientDisposableDependency, IDisposable
     {
-        public void Dispose() => throw new NotImplementedException();
+        public void Dispose() { }
     }
 
-    internal interface ITransitiveTransientDisposableDependency
+    public interface ITransitiveTransientDisposableDependency
     {
     }
 
-    internal class TransientDependency
+    public class TransientDependency
     {
         private readonly ITransitiveTransientDisposableDependency _transitiveTransientDisposableDependency;
 
