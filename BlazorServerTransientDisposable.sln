@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30120.36
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerTransientDisposable", "BlazorServerTransientDisposable\BlazorServerTransientDisposable.csproj", "{B616263A-02D1-4209-B927-3CD840524706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerTransientDisposable", "BlazorServerTransientDisposable\BlazorServerTransientDisposable.csproj", "{B616263A-02D1-4209-B927-3CD840524706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{FC238590-BA7F-4000-B907-5642F94805E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B616263A-02D1-4209-B927-3CD840524706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B616263A-02D1-4209-B927-3CD840524706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B616263A-02D1-4209-B927-3CD840524706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC238590-BA7F-4000-B907-5642F94805E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC238590-BA7F-4000-B907-5642F94805E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC238590-BA7F-4000-B907-5642F94805E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC238590-BA7F-4000-B907-5642F94805E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,7 +21,7 @@ namespace BlazorServerTransientDisposable
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseServiceProviderFactory(new BlazorServiceProviderFactory())
+                .DetectIncorrectUsageOfTransientDisposables()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

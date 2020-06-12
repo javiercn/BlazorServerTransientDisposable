@@ -31,7 +31,6 @@ namespace BlazorServerTransientDisposable
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
-            services.TryAddEnumerable(ServiceDescriptor.Scoped<CircuitHandler, ThrowOnTransientDisposableHandler>());
             services.AddTransient<TransientDependency>();
             services.AddTransient<ITransitiveTransientDisposableDependency, TransitiveTransientDisposableDependency>();
         }
